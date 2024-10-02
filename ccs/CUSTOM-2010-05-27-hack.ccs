@@ -1,0 +1,3884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ccs>
+    <temp-build>
+        <build-BC-27-E6-DB-0B-BC-D2-27>
+            <date-string>Thu Jan 22 11:43:43 EST 2009</date-string>
+            <date>4978a23f</date>
+            <symbols>
+                <symbol>
+                    <typedef>POWER_STAGE_STATE</typedef>
+                    <name>ISR2PowerStageState (T_ENUM,C)</name>
+                    <type>T_ENUM</type>
+                    <hex_value>b73</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2MaxCurrentAngleCos (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>eae</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2StatorResistance (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ee7</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2Hertz (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>807</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2IqIdMaxRatio (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ec6</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2IqMaxSlew (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>eef</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2IdL50 (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ed7</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2TorqueInductance (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f1c</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2MaxCurrentAngleSin (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ebc</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2ModulationIndex (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ec8</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2IdSet (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>838</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2MaxPowerIn (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>819</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2BrkModulationIndex (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f2e</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2MaxPowerOut (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>818</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2IsMax (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>eb6</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2LSyncCap (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f1a</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2LSigma (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f2b</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2IsLimit (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>81d</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2MinPowerLimitSpeed (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ecc</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2SlipConstant (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>edd</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2LSyncMax (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ef0</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2IqSet (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>836</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2IdMax (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>eff</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <typedef>TORQUE_LIMIT</typedef>
+                    <name>ISR2MotorTorqueLimitCause (T_ENUM,C)</name>
+                    <type>T_ENUM</type>
+                    <hex_value>b89</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2AbsStandbyTorqueDesired (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>b8e</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2TorqueDesired (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>baf</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2PsOnBat (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>e83</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <typedef>CONTACTOR_STATE</typedef>
+                    <name>ISR2ContactorState (T_ENUM,C)</name>
+                    <type>T_ENUM</type>
+                    <hex_value>c6a</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <typedef>eBOOLEAN</typedef>
+                    <name>ISR2DriveEnabled (T_ENUM,C)</name>
+                    <type>T_ENUM</type>
+                    <hex_value>c62</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE3LastError (T_UINT,C)</name>
+                    <type>T_UINT</type>
+                    <hex_value>e05</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE3ErrorCounter (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>e01</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2EnableContOffsetCalib (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>e92</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2DisableChargedError (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ea3</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2NegOverspeed (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ed3</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2PosOverspeed (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f0c</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <typedef>PS_FLT</typedef>
+                    <name>EE3PSFault0 (T_ENUM,C)</name>
+                    <type>T_ENUM</type>
+                    <hex_value>e20</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <typedef>PS_FLT</typedef>
+                    <name>EE3PSFault1 (T_ENUM,C)</name>
+                    <type>T_ENUM</type>
+                    <hex_value>e21</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <typedef>PS_FLT</typedef>
+                    <name>EE3PSFault2 (T_ENUM,C)</name>
+                    <type>T_ENUM</type>
+                    <hex_value>e22</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <typedef>PS_FLT</typedef>
+                    <name>EE3PSFault3 (T_ENUM,C)</name>
+                    <type>T_ENUM</type>
+                    <hex_value>e23</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2PsOffBat (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>eed</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE3LastError1 (T_UINT,C)</name>
+                    <type>T_UINT</type>
+                    <hex_value>e02</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE3LastError2 (T_UINT,C)</name>
+                    <type>T_UINT</type>
+                    <hex_value>e03</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE3LastError3 (T_UINT,C)</name>
+                    <type>T_UINT</type>
+                    <hex_value>e04</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <typedef>eBOOLEAN</typedef>
+                    <name>ISR2BatVoltageOK (T_ENUM,C)</name>
+                    <type>T_ENUM</type>
+                    <hex_value>b71</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <typedef>PS_FLT</typedef>
+                    <name>ISR2PSFaultActive (T_ENUM,C)</name>
+                    <type>T_ENUM</type>
+                    <hex_value>b74</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2ActiveError (T_UINT,C)</name>
+                    <type>T_UINT</type>
+                    <hex_value>b75</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2PSDisableReqCtr (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>b76</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <typedef>CURR_CALIB_STATE</typedef>
+                    <name>ISR2CurrentCalibrationState (T_ENUM,C)</name>
+                    <type>T_ENUM</type>
+                    <hex_value>b78</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <typedef>PS_INFO</typedef>
+                    <name>ISR2PowerStageStateInfo (T_ENUM,C)</name>
+                    <type>T_ENUM</type>
+                    <hex_value>b7f</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE1MotorP (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>28a</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <typedef>THERMAL_LIMIT</typedef>
+                    <name>ISR2ThermCurrentLimitCause (T_ENUM,C)</name>
+                    <type>T_ENUM</type>
+                    <hex_value>8fe</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2IRegSatEnable (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f0d</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2NoAccelBat (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f11</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2OscDeltaHz (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ea8</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2MotorTempFilterK1 (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>e95</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE1LoggingRate (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>297</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2BatVLoMem (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ed0</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE1EncoderType (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>293</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2MotorPTCisNTC (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ea5</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2OscDeltaT (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ec4</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2AccelBatRamp (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>eda</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE1EncoderPulses (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>291</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2HertzFilterK1 (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ed9</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2TorqueEstEnableVoltage (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f26</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2BatVHiMem (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f06</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2ShaftDirection (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ee2</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2NoRegenBat (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>efb</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2HeatsinkTempFilterK1 (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>e87</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2BatVWFilterK1 (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f27</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2TorqueEstRampVoltage (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f24</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2BatVSFilterK1 (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>e91</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2HertzOscFilterK1 (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f00</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2RegenBatRamp (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f04</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2BatVoltage (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>814</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2PowerInLimit (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>81b</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2HeatsinkTemp (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>827</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2MotorPTCVoltage (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>828</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2VdF (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>831</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2IdF (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>82f</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2EstBatCurrent (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>853</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2PowerOutLimit (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>81c</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2AbsQPower3Ph (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>84f</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2VqF (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>832</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2IqF (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>830</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2VsF (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>842</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2IsF (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>81e</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2MotorPTCHot (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f0a</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2MotorPTCMin (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f30</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2BoxTempMax (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ec7</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2FanOnTemp (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>eaf</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2FanOffTemp (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f0b</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2MotorPTCCold (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>eca</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2IsMaxThermSpeed (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ee9</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2BoxTempRamp (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ed4</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2IsMaxThermSpeedRamp (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>e84</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2IsMaxTherm (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>eee</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2HeatSinkLimit (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>8f5</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2DeviceLimit (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>8f6</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2MotorLimit (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>8ff</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2SpeedDeltaFaultThr (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>eb8</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <typedef>eBOOLEAN</typedef>
+                    <name>ISR2CapsCharged (T_ENUM,C)</name>
+                    <type>T_ENUM</type>
+                    <hex_value>c61</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE1SpeedoDiv (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>29a</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2IsKp (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ee8</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2IsQKi (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>e8e</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2IsQKp (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>e9e</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE1Enable1ZVPWM (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ec3</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2IsKi (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ee3</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE1UsDCFilterK1 (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>29c</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE1EncoderDirection (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>28c</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>BoxConfiguration.versionMajor (T_UINT,C)</name>
+                    <type>T_UINT</type>
+                    <hex_value>fe1</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>BoxConfiguration.versionMinor (T_UINT,C)</name>
+                    <type>T_UINT</type>
+                    <hex_value>fe2</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>BoxConfiguration.boxType (T_UINT,C)</name>
+                    <type>T_UINT</type>
+                    <hex_value>fe3</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>BoxConfiguration.DCVoltageScaleFactor (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>fe4</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>BoxConfiguration.partNumber (T_UINT,C)</name>
+                    <type>T_UINT</type>
+                    <hex_value>fe6</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>BoxConfiguration.partRev (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>fe8</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>BoxConfiguration.serialNumber_YYMM (T_UINT,C)</name>
+                    <type>T_UINT</type>
+                    <hex_value>fe9</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>BoxConfiguration.serialNumber_DDNNN (T_UINT,C)</name>
+                    <type>T_UINT</type>
+                    <hex_value>fea</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2PsiRIs63 (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>e81</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2PsiOptMax (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ea7</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2RotorResistance (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>eac</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2PsiRSat (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>eb9</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2PsiRIm63 (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ee4</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2KVPsiMaxT (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>eec</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2StallDutyFactor (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>ef5</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2PsiRSlew (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f03</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2TPerPsi (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f10</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EE2PsiRMax (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f1d</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXFullAccelNegSpeed (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f33</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXMaxRegenPower (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f34</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXBrakeMaxTorque (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f35</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXFullBrakeSpeed (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f36</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXCANTSeg1 (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f37</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXCANTSeg2 (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f38</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXAccelMaxTorque (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f39</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXCANMechStatus1CycleSec (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f3a</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXCANMechStatus1ID (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f3b</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXCANDMOCDiagReqtID (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f3d</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXBrakeLightOnTorque (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f3e</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXPedZero (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f3f</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXMaxAccelPower (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f40</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXNormAccelPower (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f41</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXCANKBitS (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f42</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXNoIgnSwitch (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f43</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXPedMax (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f44</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXCANDMOCDiagRespCycleSec (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f46</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXTorqueSlew (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f47</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXPedBrake (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f48</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXNoBrakeSpeed (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f49</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXCANDMOCDiagRespID (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f4a</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXBrakeTorqueSlew (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f4b</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXInterlockSpeedLow (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f4c</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXCANTxEnabled (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f4d</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXPreloadTorque (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f4e</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXNoAccelNegSpeed (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f4f</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXCANElecStatus1CycleSec (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f50</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXMinAccelPower (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f51</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXCANElecStatus1ID (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f52</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXUnloadTorqueSlew (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f53</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXPedAccel (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f54</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXPowerSaverPos1 (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f55</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXPowerSaverPos2 (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f56</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXBrakeLightOffTorque (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f57</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXCANTempStatusID (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f58</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXPedHyst (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f59</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXFullAccelPosSpeed (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f5a</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXNoAccelPosSpeed (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f5b</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXCANTempStatusCycleSec (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f5c</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXInterlockSpeedHigh (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f5d</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>EEXRegenOnSpeed (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>f5e</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <typedef>REGEN_STATE</typedef>
+                    <name>FRC.RegenState (T_ENUM,C)</name>
+                    <type>T_ENUM</type>
+                    <hex_value>a83</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <typedef>eBOOLEAN</typedef>
+                    <name>FRC.GearInterlock (T_ENUM,C)</name>
+                    <type>T_ENUM</type>
+                    <hex_value>a84</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <typedef>DIRECTION_SW</typedef>
+                    <name>FRC.CarDirectionSwitch (T_ENUM,C)</name>
+                    <type>T_ENUM</type>
+                    <hex_value>a85</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>FRC.PedalS (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>a86</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <typedef>PEDAL_MODE</typedef>
+                    <name>FRC.PedMode (T_ENUM,C)</name>
+                    <type>T_ENUM</type>
+                    <hex_value>a89</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <typedef>POWERSAVER_STATE</typedef>
+                    <name>FRC.PowerSaverSel (T_ENUM,C)</name>
+                    <type>T_ENUM</type>
+                    <hex_value>abf</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <name>ISR2RealTorque (T_INT,C)</name>
+                    <type>T_INT</type>
+                    <hex_value>afa</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                <symbol>
+                    <typedef>CAN_STATE</typedef>
+                    <name>ISR2CANComState (T_ENUM,C)</name>
+                    <type>T_ENUM</type>
+                    <hex_value>9fb</hex_value>
+                    <length>1</length>
+                    
+                </symbol>
+                
+            </symbols>
+            <enums>
+                <enum>
+                    <name>CURR_CALIB_STATE</name>
+                    <tags>
+                        <tag>
+                            <name>CURR_CALIB_STATE_INIT</name>
+                            <value>0.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>CURR_CALIB_STATE_INITIAL_CALIBRATION</name>
+                            <value>1.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>CURR_CALIB_STATE_OK</name>
+                            <value>2.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>CURR_CALIB_STATE_FAULT</name>
+                            <value>3.0</value>
+                            
+                        </tag>
+                        
+                    </tags>
+                    
+                </enum>
+                <enum>
+                    <name>POWER_STAGE_STATE</name>
+                    <tags>
+                        <tag>
+                            <name>POWER_STAGE_STATE_POWERUP</name>
+                            <value>0.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>POWER_STAGE_STATE_READY</name>
+                            <value>1.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>POWER_STAGE_STATE_ENABLED</name>
+                            <value>2.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>POWER_STAGE_STATE_FAULT</name>
+                            <value>3.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>POWER_STAGE_STATE_FAULT_ACKN</name>
+                            <value>4.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>POWER_STAGE_STATE_CRITICAL_FAULT</name>
+                            <value>5.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>POWER_STAGE_STATE_OFF</name>
+                            <value>6.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>POWER_STAGE_STATE_INIT</name>
+                            <value>7.0</value>
+                            
+                        </tag>
+                        
+                    </tags>
+                    
+                </enum>
+                <enum>
+                    <name>PS_FLT</name>
+                    <tags>
+                        <tag>
+                            <name>PS_FLT_NO_FAULTS</name>
+                            <value>0.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_FLT_UNKNOWN_FAULT</name>
+                            <value>1.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_FLT_ERROR_ON_ENABLE</name>
+                            <value>2.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_FLT_RELAY_ERROR_AT_READY</name>
+                            <value>3.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_FLT_RELAY_ERROR_AT_ENABLED</name>
+                            <value>4.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_FLT_CHARGED_ERROR</name>
+                            <value>5.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_FLT_HARDWARE_OV</name>
+                            <value>6.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_FLT_HARDWARE_OC</name>
+                            <value>7.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_FLT_SOFTWARE_OC</name>
+                            <value>8.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_FLT_SOFTWARE_OV</name>
+                            <value>9.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_FLT_DC_BUS_UNDER_VOLTAGE</name>
+                            <value>10.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_FLT_OVERSPEED</name>
+                            <value>11.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_FLT_SVPWM_ERROR</name>
+                            <value>12.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_FLT_SPEED_SENSOR_ERROR</name>
+                            <value>13.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_FLT_DESAT</name>
+                            <value>128.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_FLT_CURRENT_CALIB_FAULT</name>
+                            <value>129.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_FLT_EXTERNAL_PS_DISABLE_AT_ENABLED</name>
+                            <value>130.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_FLT_KERNEL_DISPATCHER_ERROR</name>
+                            <value>131.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_FLT_UNDEFINED_CASE_ERROR</name>
+                            <value>132.0</value>
+                            
+                        </tag>
+                        
+                    </tags>
+                    
+                </enum>
+                <enum>
+                    <name>DIRECTION_SW</name>
+                    <tags>
+                        <tag>
+                            <name>DIRECTION_SW_REVERSE</name>
+                            <value>-1.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>DIRECTION_SW_NEUTRAL</name>
+                            <value>0.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>DIRECTION_SW_FORWARD</name>
+                            <value>1.0</value>
+                            
+                        </tag>
+                        
+                    </tags>
+                    
+                </enum>
+                <enum>
+                    <name>REGEN_STATE</name>
+                    <tags>
+                        <tag>
+                            <name>REGEN_STATE_POWERUP</name>
+                            <value>0.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>REGEN_STATE_DISABLED</name>
+                            <value>1.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>REGEN_STATE_ENABLED</name>
+                            <value>2.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>REGEN_STATE_FAULT</name>
+                            <value>3.0</value>
+                            
+                        </tag>
+                        
+                    </tags>
+                    
+                </enum>
+                <enum>
+                    <name>TORQUE_LIMIT</name>
+                    <tags>
+                        <tag>
+                            <name>TORQUE_LIMIT_TORQUE_REQUEST_LIMIT</name>
+                            <value>0.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>TORQUE_LIMIT_CURRENT_LIMIT</name>
+                            <value>1.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>TORQUE_LIMIT_VOLTAGE_LIMIT</name>
+                            <value>2.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>TORQUE_LIMIT_BAT_POWER_OUT_LIMIT</name>
+                            <value>3.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>TORQUE_LIMIT_BAT_POWER_IN_LIMIT</name>
+                            <value>4.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>TORQUE_LIMIT_IQ_SLEW_LIMIT</name>
+                            <value>5.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>TORQUE_LIMIT_SLIP_LIMIT</name>
+                            <value>6.0</value>
+                            
+                        </tag>
+                        
+                    </tags>
+                    
+                </enum>
+                <enum>
+                    <name>eBOOLEAN</name>
+                    <tags>
+                        <tag>
+                            <name>FALSE</name>
+                            <value>0.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>TRUE</name>
+                            <value>1.0</value>
+                            
+                        </tag>
+                        
+                    </tags>
+                    
+                </enum>
+                <enum>
+                    <name>CONTACTOR_STATE</name>
+                    <tags>
+                        <tag>
+                            <name>CONTACTOR_STATE_OPEN</name>
+                            <value>0.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>CONTACTOR_STATE_CLOSING</name>
+                            <value>1.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>CONTACTOR_STATE_CLOSED</name>
+                            <value>2.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>CONTACTOR_STATE_FAULT</name>
+                            <value>3.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>CONTACTOR_STATE_OPENING</name>
+                            <value>4.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>CONTACTOR_STATE_INIT</name>
+                            <value>5.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>CONTACTOR_STATE_CRITICAL_FAULT</name>
+                            <value>6.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>CONTACTOR_STATE_EXTERNAL_CONTACTOR</name>
+                            <value>7.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>CONTACTOR_STATE_EXTERNAL_CRITICAL_FAULT</name>
+                            <value>8.0</value>
+                            
+                        </tag>
+                        
+                    </tags>
+                    
+                </enum>
+                <enum>
+                    <name>THERMAL_LIMIT</name>
+                    <tags>
+                        <tag>
+                            <name>THERMAL_LIMIT_NORMAL_CALIBRATION</name>
+                            <value>0.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>THERMAL_LIMIT_IGBT</name>
+                            <value>1.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>THERMAL_LIMIT_MOTOR</name>
+                            <value>2.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>THERMAL_LIMIT_HEATSINK</name>
+                            <value>3.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>THERMAL_LIMIT_DC_VOLTAGE</name>
+                            <value>4.0</value>
+                            
+                        </tag>
+                        
+                    </tags>
+                    
+                </enum>
+                <enum>
+                    <name>CAN_STATE</name>
+                    <tags>
+                        <tag>
+                            <name>CAN_STATE_POWERUP</name>
+                            <value>0.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>CAN_STATE_OFFLINE</name>
+                            <value>1.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>CAN_STATE_ONLINE</name>
+                            <value>2.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>CAN_STATE_FAULT</name>
+                            <value>3.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>CAN_STATE_PANIC</name>
+                            <value>4.0</value>
+                            
+                        </tag>
+                        
+                    </tags>
+                    
+                </enum>
+                <enum>
+                    <name>PS_INFO</name>
+                    <tags>
+                        <tag>
+                            <name>PS_INFO_WAITING_FOR_CURRENT_SENSOR_CALIBRATION</name>
+                            <value>0.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_INFO_INVALID_CONFIGURATION_CHECK_PARAMETERS</name>
+                            <value>60.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_INFO_EXTERNAL_PS_DISABLE_IS_ACTIVE</name>
+                            <value>61.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_INFO_WAITING_FOR_DRIVE_ENABLE_SIGNAL</name>
+                            <value>62.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_INFO_WAITING_FOR_CONTACTOR_TO_CLOSE</name>
+                            <value>63.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_INFO_WAITING_FOR_MINIMUM_DC_VOLTAGE</name>
+                            <value>64.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_INFO_WAITING_FOR_ZERO_POWER_REQUEST</name>
+                            <value>65.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_INFO_WAITING_FOR_APPLICATION_CODE_INTERLOCK</name>
+                            <value>66.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_INFO_WAITING_FOR_POWER_REQUEST</name>
+                            <value>10.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_INFO_POWER_STAGE_OK</name>
+                            <value>20.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_INFO_WAITING_FOR_FAULT_ACKNOWLEDGE</name>
+                            <value>30.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PS_INFO_MUST_POWER_CYCLE_TO_CLEAR_CRITICAL_FAULT</name>
+                            <value>50.0</value>
+                            
+                        </tag>
+                        
+                    </tags>
+                    
+                </enum>
+                <enum>
+                    <name>POWERSAVER_STATE</name>
+                    <tags>
+                        <tag>
+                            <name>POWERSAVER_STATE_POWERUP</name>
+                            <value>0.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>POWERSAVER_STATE_MAXPOWER</name>
+                            <value>1.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>POWERSAVER_STATE_NORMPOWER</name>
+                            <value>2.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>POWERSAVER_STATE_MINPOWER</name>
+                            <value>3.0</value>
+                            
+                        </tag>
+                        
+                    </tags>
+                    
+                </enum>
+                <enum>
+                    <name>PEDAL_MODE</name>
+                    <tags>
+                        <tag>
+                            <name>PEDAL_MODE_NEUTRAL</name>
+                            <value>0.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PEDAL_MODE_ACCEL</name>
+                            <value>1.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PEDAL_MODE_BRAKE</name>
+                            <value>2.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PEDAL_MODE_STARTING</name>
+                            <value>3.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PEDAL_MODE_LOW_ERROR</name>
+                            <value>4.0</value>
+                            
+                        </tag>
+                        <tag>
+                            <name>PEDAL_MODE_HIGH_ERROR</name>
+                            <value>5.0</value>
+                            
+                        </tag>
+                        
+                    </tags>
+                    
+                </enum>
+                
+            </enums>
+            
+        </build-BC-27-E6-DB-0B-BC-D2-27>
+        
+    </temp-build>
+    <references>
+        <symbol>
+            <name>T_Ref</name>
+            <value>305.577</value>
+            <unit>Nm</unit>
+            
+        </symbol>
+        <symbol>
+            <name>Rpm_Ref</name>
+            <value>2500</value>
+            <unit>rpm</unit>
+            
+        </symbol>
+        <symbol>
+            <name>R_Ref</name>
+            <value>0.3333</value>
+            <unit>Ohm</unit>
+            
+        </symbol>
+        <symbol>
+            <name>Tslew_Ref</name>
+            <value>30557</value>
+            <unit>Nm/s</unit>
+            
+        </symbol>
+        <symbol>
+            <name>Temp_Ref</name>
+            <value>100</value>
+            <unit>C</unit>
+            
+        </symbol>
+        <symbol>
+            <name>Vph_Ref</name>
+            <value>133.3333</value>
+            <unit>V</unit>
+            
+        </symbol>
+        <symbol>
+            <name>Vdc_Ref</name>
+            <value>200</value>
+            <unit>V</unit>
+            
+        </symbol>
+        <symbol>
+            <name>L_Ref</name>
+            <value>0.6366</value>
+            <unit>mH</unit>
+            
+        </symbol>
+        <symbol>
+            <name>Hz_Ref</name>
+            <value>83.333</value>
+            <unit>Hz</unit>
+            
+        </symbol>
+        <symbol>
+            <name>I_Ref</name>
+            <value>400</value>
+            <unit>A</unit>
+            
+        </symbol>
+        <symbol>
+            <name>Flux_Ref</name>
+            <value>0.2546</value>
+            <unit>Vs</unit>
+            
+        </symbol>
+        <symbol>
+            <name>P_Ref</name>
+            <value>80000</value>
+            <unit>W</unit>
+            
+        </symbol>
+        <symbol>
+            <name>TimeS_Ref</name>
+            <value>0.01</value>
+            <unit>s</unit>
+            
+        </symbol>
+        
+    </references>
+    <variables />
+    <panels>
+        <varview>
+            <name>Viewer</name>
+            <class>ccshell.ui.bskin.ViewComposite</class>
+            <selected>
+                <symbol>EE3PSFault0 (T_ENUM,C)</symbol>
+                <symbol>EE3PSFault1 (T_ENUM,C)</symbol>
+                <symbol>FRC.CarDirectionSwitch (T_ENUM,C)</symbol>
+                <symbol>ISR2AbsStandbyTorqueDesired (T_INT,C)</symbol>
+                <symbol>ISR2BatVoltage (T_INT,C)</symbol>
+                <symbol>ISR2EstBatCurrent (T_INT,C)</symbol>
+                <symbol>ISR2Hertz (T_INT,C)</symbol>
+                <symbol>ISR2IdF (T_INT,C)</symbol>
+                <symbol>ISR2IdSet (T_INT,C)</symbol>
+                <symbol>ISR2IqF (T_INT,C)</symbol>
+                <symbol>ISR2IqSet (T_INT,C)</symbol>
+                <symbol>ISR2IsLimit (T_INT,C)</symbol>
+                <symbol>ISR2MotorLimit (T_INT,C)</symbol>
+                <symbol>ISR2PowerStageState (T_ENUM,C)</symbol>
+                <symbol>ISR2PowerStageStateInfo (T_ENUM,C)</symbol>
+                <symbol>ISR2RealTorque (T_INT,C)</symbol>
+                <symbol>ISR2TorqueDesired (T_INT,C)</symbol>
+                <symbol>ISR2VdF (T_INT,C)</symbol>
+                <symbol>ISR2VqF (T_INT,C)</symbol>
+            </selected>
+        </varview>
+        <scope>
+            <name>Scope</name>
+            <class>ccshell.ui.bskin.ScopeComposite</class>
+            <selected>
+                <symbol>ISR2Hertz (T_INT,C)</symbol>
+                <symbol>ISR2IdF (T_INT,C)</symbol>
+                <symbol>ISR2IdSet (T_INT,C)</symbol>
+                <symbol>ISR2IqF (T_INT,C)</symbol>
+                <symbol>ISR2IqSet (T_INT,C)</symbol>
+                <symbol>ISR2TorqueDesired (T_INT,C)</symbol>
+            </selected>
+        </scope>
+        <panel>
+            <name>Edit</name>
+            <class>ccshell.ui.bskin.CustEditComposite</class>
+            <selected />
+            
+        </panel>
+        <panel>
+            <name>Voltage Calibration</name>
+            <class>ccshell.extras.VoltageCalibrationComposite</class>
+            <selected />
+            
+        </panel>
+        
+    </panels>
+    <definitions>
+        <symbol>
+            <name>BoxConfiguration.DCVoltageScaleFactor (T_INT,C)</name>
+            <alias>BoxConfiguration.DCVoltageScaleFactor</alias>
+            <fixed-point>10</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>BoxConfiguration.boxType (T_UINT,C)</name>
+            <alias>BoxConfiguration.boxType</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>BoxConfiguration.partNumber (T_UINT,C)</name>
+            <alias>BoxConfiguration.partNumber</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>BoxConfiguration.partRev (T_INT,C)</name>
+            <alias>BoxConfiguration.partRev</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>BoxConfiguration.serialNumber_DDNNN (T_UINT,C)</name>
+            <alias>BoxConfiguration.serialNumber_DDNNN</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>BoxConfiguration.serialNumber_YYMM (T_UINT,C)</name>
+            <alias>BoxConfiguration.serialNumber_YYMM</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>BoxConfiguration.versionMajor (T_UINT,C)</name>
+            <alias>BoxConfiguration.versionMajor</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>BoxConfiguration.versionMinor (T_UINT,C)</name>
+            <alias>BoxConfiguration.versionMinor</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE1Enable1ZVPWM (T_INT,C)</name>
+            <alias>EE1Enable1ZVPWM</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE1EncoderDirection (T_INT,C)</name>
+            <alias>EE1EncoderDirection</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE1EncoderPulses (T_INT,C)</name>
+            <alias>EE1EncoderPulses</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE1EncoderType (T_INT,C)</name>
+            <alias>EE1EncoderType</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE1LoggingRate (T_INT,C)</name>
+            <alias>EE1LoggingRate</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE1MotorP (T_INT,C)</name>
+            <alias>EE1MotorP</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE1SpeedoDiv (T_INT,C)</name>
+            <alias>EE1SpeedoDiv</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE1UsDCFilterK1 (T_INT,C)</name>
+            <alias>EE1UsDCFilterK1</alias>
+            <fixed-point>14</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2AccelBatRamp (T_INT,C)</name>
+            <alias>EE2AccelBatRamp</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Vdc_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2BatVHiMem (T_INT,C)</name>
+            <alias>EE2BatVHiMem</alias>
+            <fixed-point>17</fixed-point>
+            <reference>Vdc_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2BatVLoMem (T_INT,C)</name>
+            <alias>EE2BatVLoMem</alias>
+            <fixed-point>17</fixed-point>
+            <reference>Vdc_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2BatVSFilterK1 (T_INT,C)</name>
+            <alias>EE2BatVSFilterK1</alias>
+            <fixed-point>14</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2BatVWFilterK1 (T_INT,C)</name>
+            <alias>EE2BatVWFilterK1</alias>
+            <fixed-point>14</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2BoxTempMax (T_INT,C)</name>
+            <alias>EE2BoxTempMax</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Temp_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2BoxTempRamp (T_INT,C)</name>
+            <alias>EE2BoxTempRamp</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Temp_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2BrkModulationIndex (T_INT,C)</name>
+            <alias>EE2BrkModulationIndex</alias>
+            <fixed-point>14</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2DisableChargedError (T_INT,C)</name>
+            <alias>EE2DisableChargedError</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2EnableContOffsetCalib (T_INT,C)</name>
+            <alias>EE2EnableContOffsetCalib</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2FanOffTemp (T_INT,C)</name>
+            <alias>EE2FanOffTemp</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Temp_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2FanOnTemp (T_INT,C)</name>
+            <alias>EE2FanOnTemp</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Temp_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2HeatsinkTempFilterK1 (T_INT,C)</name>
+            <alias>EE2HeatsinkTempFilterK1</alias>
+            <fixed-point>14</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2HertzFilterK1 (T_INT,C)</name>
+            <alias>EE2HertzFilterK1</alias>
+            <fixed-point>14</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2HertzOscFilterK1 (T_INT,C)</name>
+            <alias>EE2HertzOscFilterK1</alias>
+            <fixed-point>14</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2IRegSatEnable (T_INT,C)</name>
+            <alias>EE2IRegSatEnable</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2IdL50 (T_INT,C)</name>
+            <alias>EE2IdL50</alias>
+            <fixed-point>10</fixed-point>
+            <reference>I_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2IdMax (T_INT,C)</name>
+            <alias>EE2IdMax</alias>
+            <fixed-point>10</fixed-point>
+            <reference>I_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2IqIdMaxRatio (T_INT,C)</name>
+            <alias>EE2IqIdMaxRatio</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2IqMaxSlew (T_INT,C)</name>
+            <alias>EE2IqMaxSlew</alias>
+            <fixed-point>10</fixed-point>
+            <reference>I_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2IsKi (T_INT,C)</name>
+            <alias>EE2IsKi</alias>
+            <fixed-point>14</fixed-point>
+            <reference>R_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2IsKp (T_INT,C)</name>
+            <alias>EE2IsKp</alias>
+            <fixed-point>9</fixed-point>
+            <reference>R_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2IsMax (T_INT,C)</name>
+            <alias>EE2IsMax</alias>
+            <fixed-point>10</fixed-point>
+            <reference>I_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2IsMaxTherm (T_INT,C)</name>
+            <alias>EE2IsMaxTherm</alias>
+            <fixed-point>10</fixed-point>
+            <reference>I_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2IsMaxThermSpeed (T_INT,C)</name>
+            <alias>EE2IsMaxThermSpeed</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Rpm_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2IsMaxThermSpeedRamp (T_INT,C)</name>
+            <alias>EE2IsMaxThermSpeedRamp</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Rpm_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2IsQKi (T_INT,C)</name>
+            <alias>EE2IsQKi</alias>
+            <fixed-point>14</fixed-point>
+            <reference>R_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2IsQKp (T_INT,C)</name>
+            <alias>EE2IsQKp</alias>
+            <fixed-point>9</fixed-point>
+            <reference>R_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2KVPsiMaxT (T_INT,C)</name>
+            <alias>EE2KVPsiMaxT</alias>
+            <fixed-point>10</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2LSigma (T_INT,C)</name>
+            <alias>EE2LSigma</alias>
+            <fixed-point>10</fixed-point>
+            <reference>L_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2LSyncCap (T_INT,C)</name>
+            <alias>EE2LSyncCap</alias>
+            <fixed-point>10</fixed-point>
+            <reference>L_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2LSyncMax (T_INT,C)</name>
+            <alias>EE2LSyncMax</alias>
+            <fixed-point>10</fixed-point>
+            <reference>L_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2MaxCurrentAngleCos (T_INT,C)</name>
+            <alias>EE2MaxCurrentAngleCos</alias>
+            <fixed-point>15</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2MaxCurrentAngleSin (T_INT,C)</name>
+            <alias>EE2MaxCurrentAngleSin</alias>
+            <fixed-point>15</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2MinPowerLimitSpeed (T_INT,C)</name>
+            <alias>EE2MinPowerLimitSpeed</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Rpm_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2ModulationIndex (T_INT,C)</name>
+            <alias>EE2ModulationIndex</alias>
+            <fixed-point>14</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2MotorPTCCold (T_INT,C)</name>
+            <alias>EE2MotorPTCCold</alias>
+            <fixed-point>10</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2MotorPTCHot (T_INT,C)</name>
+            <alias>EE2MotorPTCHot</alias>
+            <fixed-point>10</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2MotorPTCMin (T_INT,C)</name>
+            <alias>EE2MotorPTCMin</alias>
+            <fixed-point>10</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2MotorPTCisNTC (T_INT,C)</name>
+            <alias>EE2MotorPTCisNTC</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2MotorTempFilterK1 (T_INT,C)</name>
+            <alias>EE2MotorTempFilterK1</alias>
+            <fixed-point>14</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2NegOverspeed (T_INT,C)</name>
+            <alias>EE2NegOverspeed</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Rpm_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2NoAccelBat (T_INT,C)</name>
+            <alias>EE2NoAccelBat</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Vdc_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2NoRegenBat (T_INT,C)</name>
+            <alias>EE2NoRegenBat</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Vdc_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2OscDeltaHz (T_INT,C)</name>
+            <alias>EE2OscDeltaHz</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Rpm_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2OscDeltaT (T_INT,C)</name>
+            <alias>EE2OscDeltaT</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2PosOverspeed (T_INT,C)</name>
+            <alias>EE2PosOverspeed</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Rpm_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2PsOffBat (T_INT,C)</name>
+            <alias>EE2PsOffBat</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Vdc_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2PsOnBat (T_INT,C)</name>
+            <alias>EE2PsOnBat</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Vdc_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2PsiOptMax (T_INT,C)</name>
+            <alias>EE2PsiOptMax</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Flux_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2PsiRIm63 (T_INT,C)</name>
+            <alias>EE2PsiRIm63</alias>
+            <fixed-point>10</fixed-point>
+            <reference>I_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2PsiRIs63 (T_INT,C)</name>
+            <alias>EE2PsiRIs63</alias>
+            <fixed-point>10</fixed-point>
+            <reference>I_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2PsiRMax (T_INT,C)</name>
+            <alias>EE2PsiRMax</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Flux_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2PsiRSat (T_INT,C)</name>
+            <alias>EE2PsiRSat</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Flux_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2PsiRSlew (T_INT,C)</name>
+            <alias>EE2PsiRSlew</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Flux_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2RegenBatRamp (T_INT,C)</name>
+            <alias>EE2RegenBatRamp</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Vdc_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2RotorResistance (T_INT,C)</name>
+            <alias>EE2RotorResistance</alias>
+            <fixed-point>10</fixed-point>
+            <reference>R_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2ShaftDirection (T_INT,C)</name>
+            <alias>EE2ShaftDirection</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2SlipConstant (T_INT,C)</name>
+            <alias>EE2SlipConstant</alias>
+            <fixed-point>17</fixed-point>
+            <reference>Hz_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2SpeedDeltaFaultThr (T_INT,C)</name>
+            <alias>EE2SpeedDeltaFaultThr</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Rpm_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2StallDutyFactor (T_INT,C)</name>
+            <alias>EE2StallDutyFactor</alias>
+            <fixed-point>10</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2StatorResistance (T_INT,C)</name>
+            <alias>EE2StatorResistance</alias>
+            <fixed-point>10</fixed-point>
+            <reference>R_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2TPerPsi (T_INT,C)</name>
+            <alias>EE2TPerPsi</alias>
+            <fixed-point>10</fixed-point>
+            <reference>I_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2TorqueEstEnableVoltage (T_INT,C)</name>
+            <alias>EE2TorqueEstEnableVoltage</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Vph_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2TorqueEstRampVoltage (T_INT,C)</name>
+            <alias>EE2TorqueEstRampVoltage</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Vph_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE2TorqueInductance (T_INT,C)</name>
+            <alias>EE2TorqueInductance</alias>
+            <fixed-point>10</fixed-point>
+            <reference>L_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE3ErrorCounter (T_INT,C)</name>
+            <alias>EE3ErrorCounter</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE3LastError (T_UINT,C)</name>
+            <alias>EE3LastError</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE3LastError1 (T_UINT,C)</name>
+            <alias>EE3LastError1</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE3LastError2 (T_UINT,C)</name>
+            <alias>EE3LastError2</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE3LastError3 (T_UINT,C)</name>
+            <alias>EE3LastError3</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE3PSFault0 (T_ENUM,C)</name>
+            <alias>EE3PSFault0</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE3PSFault1 (T_ENUM,C)</name>
+            <alias>EE3PSFault1</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE3PSFault2 (T_ENUM,C)</name>
+            <alias>EE3PSFault2</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EE3PSFault3 (T_ENUM,C)</name>
+            <alias>EE3PSFault3</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXAccelMaxTorque (T_INT,C)</name>
+            <alias>EEXAccelMaxTorque</alias>
+            <fixed-point>10</fixed-point>
+            <reference>T_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXBrakeLightOffTorque (T_INT,C)</name>
+            <alias>EEXBrakeLightOffTorque</alias>
+            <fixed-point>10</fixed-point>
+            <reference>T_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXBrakeLightOnTorque (T_INT,C)</name>
+            <alias>EEXBrakeLightOnTorque</alias>
+            <fixed-point>10</fixed-point>
+            <reference>T_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXBrakeMaxTorque (T_INT,C)</name>
+            <alias>EEXBrakeMaxTorque</alias>
+            <fixed-point>10</fixed-point>
+            <reference>T_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXBrakeTorqueSlew (T_INT,C)</name>
+            <alias>EEXBrakeTorqueSlew</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Tslew_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXCANDMOCDiagReqtID (T_INT,C)</name>
+            <alias>EEXCANDMOCDiagReqtID</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXCANDMOCDiagRespCycleSec (T_INT,C)</name>
+            <alias>EEXCANDMOCDiagRespCycleSec</alias>
+            <fixed-point>0</fixed-point>
+            <reference>TimeS_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXCANDMOCDiagRespID (T_INT,C)</name>
+            <alias>EEXCANDMOCDiagRespID</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXCANElecStatus1CycleSec (T_INT,C)</name>
+            <alias>EEXCANElecStatus1CycleSec</alias>
+            <fixed-point>0</fixed-point>
+            <reference>TimeS_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXCANElecStatus1ID (T_INT,C)</name>
+            <alias>EEXCANElecStatus1ID</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXCANKBitS (T_INT,C)</name>
+            <alias>EEXCANKBitS</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXCANMechStatus1CycleSec (T_INT,C)</name>
+            <alias>EEXCANMechStatus1CycleSec</alias>
+            <fixed-point>0</fixed-point>
+            <reference>TimeS_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXCANMechStatus1ID (T_INT,C)</name>
+            <alias>EEXCANMechStatus1ID</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXCANTSeg1 (T_INT,C)</name>
+            <alias>EEXCANTSeg1</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXCANTSeg2 (T_INT,C)</name>
+            <alias>EEXCANTSeg2</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXCANTempStatusCycleSec (T_INT,C)</name>
+            <alias>EEXCANTempStatusCycleSec</alias>
+            <fixed-point>0</fixed-point>
+            <reference>TimeS_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXCANTempStatusID (T_INT,C)</name>
+            <alias>EEXCANTempStatusID</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXCANTxEnabled (T_INT,C)</name>
+            <alias>EEXCANTxEnabled</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXFullAccelNegSpeed (T_INT,C)</name>
+            <alias>EEXFullAccelNegSpeed</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Rpm_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXFullAccelPosSpeed (T_INT,C)</name>
+            <alias>EEXFullAccelPosSpeed</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Rpm_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXFullBrakeSpeed (T_INT,C)</name>
+            <alias>EEXFullBrakeSpeed</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Rpm_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXInterlockSpeedHigh (T_INT,C)</name>
+            <alias>EEXInterlockSpeedHigh</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Rpm_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXInterlockSpeedLow (T_INT,C)</name>
+            <alias>EEXInterlockSpeedLow</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Rpm_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXMaxAccelPower (T_INT,C)</name>
+            <alias>EEXMaxAccelPower</alias>
+            <fixed-point>10</fixed-point>
+            <reference>P_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXMaxRegenPower (T_INT,C)</name>
+            <alias>EEXMaxRegenPower</alias>
+            <fixed-point>10</fixed-point>
+            <reference>P_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXMinAccelPower (T_INT,C)</name>
+            <alias>EEXMinAccelPower</alias>
+            <fixed-point>10</fixed-point>
+            <reference>P_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXNoAccelNegSpeed (T_INT,C)</name>
+            <alias>EEXNoAccelNegSpeed</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Rpm_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXNoAccelPosSpeed (T_INT,C)</name>
+            <alias>EEXNoAccelPosSpeed</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Rpm_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXNoBrakeSpeed (T_INT,C)</name>
+            <alias>EEXNoBrakeSpeed</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Rpm_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXNoIgnSwitch (T_INT,C)</name>
+            <alias>EEXNoIgnSwitch</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXNormAccelPower (T_INT,C)</name>
+            <alias>EEXNormAccelPower</alias>
+            <fixed-point>10</fixed-point>
+            <reference>P_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXPedAccel (T_INT,C)</name>
+            <alias>EEXPedAccel</alias>
+            <fixed-point>10</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXPedBrake (T_INT,C)</name>
+            <alias>EEXPedBrake</alias>
+            <fixed-point>10</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXPedHyst (T_INT,C)</name>
+            <alias>EEXPedHyst</alias>
+            <fixed-point>10</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXPedMax (T_INT,C)</name>
+            <alias>EEXPedMax</alias>
+            <fixed-point>10</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXPedZero (T_INT,C)</name>
+            <alias>EEXPedZero</alias>
+            <fixed-point>10</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXPowerSaverPos1 (T_INT,C)</name>
+            <alias>EEXPowerSaverPos1</alias>
+            <fixed-point>10</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXPowerSaverPos2 (T_INT,C)</name>
+            <alias>EEXPowerSaverPos2</alias>
+            <fixed-point>10</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXPreloadTorque (T_INT,C)</name>
+            <alias>EEXPreloadTorque</alias>
+            <fixed-point>10</fixed-point>
+            <reference>T_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXRegenOnSpeed (T_INT,C)</name>
+            <alias>EEXRegenOnSpeed</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Rpm_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXTorqueSlew (T_INT,C)</name>
+            <alias>EEXTorqueSlew</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Tslew_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>EEXUnloadTorqueSlew (T_INT,C)</name>
+            <alias>EEXUnloadTorqueSlew</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Tslew_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>FRC.CarDirectionSwitch (T_ENUM,C)</name>
+            <alias>FRC.CarDirectionSwitch</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>FRC.GearInterlock (T_ENUM,C)</name>
+            <alias>FRC.GearInterlock</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>FRC.PedMode (T_ENUM,C)</name>
+            <alias>FRC.PedMode</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>FRC.PedalS (T_INT,C)</name>
+            <alias>FRC.PedalS</alias>
+            <fixed-point>10</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>FRC.PowerSaverSel (T_ENUM,C)</name>
+            <alias>FRC.PowerSaverSel</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>FRC.RegenState (T_ENUM,C)</name>
+            <alias>FRC.RegenState</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2AbsQPower3Ph (T_INT,C)</name>
+            <alias>ISR2AbsQPower3Ph</alias>
+            <fixed-point>10</fixed-point>
+            <reference>P_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2AbsStandbyTorqueDesired (T_INT,C)</name>
+            <alias>ISR2AbsStandbyTorqueDesired</alias>
+            <fixed-point>10</fixed-point>
+            <reference>T_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2ActiveError (T_UINT,C)</name>
+            <alias>ISR2ActiveError</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2BatVoltage (T_INT,C)</name>
+            <alias>Battery Voltage</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Vdc_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2BatVoltageOK (T_ENUM,C)</name>
+            <alias>ISR2BatVoltageOK</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2CANComState (T_ENUM,C)</name>
+            <alias>ISR2CANComState</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2CapsCharged (T_ENUM,C)</name>
+            <alias>ISR2CapsCharged</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2ContactorState (T_ENUM,C)</name>
+            <alias>ISR2ContactorState</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2CurrentCalibrationState (T_ENUM,C)</name>
+            <alias>ISR2CurrentCalibrationState</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2DeviceLimit (T_INT,C)</name>
+            <alias>DMoC Derate Factor</alias>
+            <fixed-point>10</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2DriveEnabled (T_ENUM,C)</name>
+            <alias>ISR2DriveEnabled</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2EstBatCurrent (T_INT,C)</name>
+            <alias>ISR2EstBatCurrent</alias>
+            <fixed-point>10</fixed-point>
+            <reference>I_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2HeatSinkLimit (T_INT,C)</name>
+            <alias>ISR2HeatSinkLimit</alias>
+            <fixed-point>10</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2HeatsinkTemp (T_INT,C)</name>
+            <alias>ISR2HeatsinkTemp</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Temp_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2Hertz (T_INT,C)</name>
+            <alias>Motor Speed Actual</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Rpm_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2IdF (T_INT,C)</name>
+            <alias>ISR2IdF</alias>
+            <fixed-point>10</fixed-point>
+            <reference>I_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2IdSet (T_INT,C)</name>
+            <alias>ISR2IdSet</alias>
+            <fixed-point>10</fixed-point>
+            <reference>I_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2IqF (T_INT,C)</name>
+            <alias>ISR2IqF</alias>
+            <fixed-point>10</fixed-point>
+            <reference>I_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2IqSet (T_INT,C)</name>
+            <alias>ISR2IqSet</alias>
+            <fixed-point>10</fixed-point>
+            <reference>I_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2IsF (T_INT,C)</name>
+            <alias>Motor Current</alias>
+            <fixed-point>10</fixed-point>
+            <reference>I_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2IsLimit (T_INT,C)</name>
+            <alias>ISR2IsLimit</alias>
+            <fixed-point>10</fixed-point>
+            <reference>I_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2MaxPowerIn (T_INT,C)</name>
+            <alias>ISR2MaxPowerIn</alias>
+            <fixed-point>10</fixed-point>
+            <reference>P_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2MaxPowerOut (T_INT,C)</name>
+            <alias>ISR2MaxPowerOut</alias>
+            <fixed-point>10</fixed-point>
+            <reference>P_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2MotorLimit (T_INT,C)</name>
+            <alias>Motor Derate Factor</alias>
+            <fixed-point>10</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2MotorPTCVoltage (T_INT,C)</name>
+            <alias>ISR2MotorPTCVoltage</alias>
+            <fixed-point>10</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2MotorTorqueLimitCause (T_ENUM,C)</name>
+            <alias>ISR2MotorTorqueLimitCause</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2PSDisableReqCtr (T_INT,C)</name>
+            <alias>ISR2PSDisableReqCtr</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2PSFaultActive (T_ENUM,C)</name>
+            <alias>ISR2PSFaultActive</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2PowerInLimit (T_INT,C)</name>
+            <alias>ISR2PowerInLimit</alias>
+            <fixed-point>10</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2PowerOutLimit (T_INT,C)</name>
+            <alias>ISR2PowerOutLimit</alias>
+            <fixed-point>10</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2PowerStageState (T_ENUM,C)</name>
+            <alias>Power Stage State</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2PowerStageStateInfo (T_ENUM,C)</name>
+            <alias>ISR2PowerStageStateInfo</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2RealTorque (T_INT,C)</name>
+            <alias>Torque Actual</alias>
+            <fixed-point>10</fixed-point>
+            <reference>T_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2ThermCurrentLimitCause (T_ENUM,C)</name>
+            <alias>ISR2ThermCurrentLimitCause</alias>
+            <fixed-point>0</fixed-point>
+            <reference>1.0</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2TorqueDesired (T_INT,C)</name>
+            <alias>Torque Desired</alias>
+            <fixed-point>10</fixed-point>
+            <reference>T_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2VdF (T_INT,C)</name>
+            <alias>ISR2VdF</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Vph_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2VqF (T_INT,C)</name>
+            <alias>ISR2VqF</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Vph_Ref</reference>
+            
+        </symbol>
+        <symbol>
+            <name>ISR2VsF (T_INT,C)</name>
+            <alias>ISR2VsF</alias>
+            <fixed-point>10</fixed-point>
+            <reference>Vph_Ref</reference>
+            
+        </symbol>
+        
+    </definitions>
+    <limits>
+        <limit>
+            <name>EE1Enable1ZVPWM (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EE1EncoderDirection (T_INT,C)</name>
+            <min>-1</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EE1EncoderPulses (T_INT,C)</name>
+            <min>0</min>
+            <max>128</max>
+            
+        </limit>
+        <limit>
+            <name>EE1EncoderType (T_INT,C)</name>
+            <min>0</min>
+            <max>10</max>
+            
+        </limit>
+        <limit>
+            <name>EE1LoggingRate (T_INT,C)</name>
+            <min>-10</min>
+            <max>10</max>
+            
+        </limit>
+        <limit>
+            <name>EE1MotorP (T_INT,C)</name>
+            <min>1</min>
+            <max>20</max>
+            
+        </limit>
+        <limit>
+            <name>EE1SpeedoDiv (T_INT,C)</name>
+            <min>-32768.0</min>
+            <max>32767.0</max>
+            
+        </limit>
+        <limit>
+            <name>EE1UsDCFilterK1 (T_INT,C)</name>
+            <min>0</min>
+            <max>1.0</max>
+            
+        </limit>
+        <limit>
+            <name>EE2AccelBatRamp (T_INT,C)</name>
+            <min>0</min>
+            <max>400</max>
+            
+        </limit>
+        <limit>
+            <name>EE2BatVHiMem (T_INT,C)</name>
+            <min>0</min>
+            <max>10</max>
+            
+        </limit>
+        <limit>
+            <name>EE2BatVLoMem (T_INT,C)</name>
+            <min>0</min>
+            <max>10</max>
+            
+        </limit>
+        <limit>
+            <name>EE2BatVSFilterK1 (T_INT,C)</name>
+            <min>0</min>
+            <max>1.0</max>
+            
+        </limit>
+        <limit>
+            <name>EE2BatVWFilterK1 (T_INT,C)</name>
+            <min>0</min>
+            <max>1.0</max>
+            
+        </limit>
+        <limit>
+            <name>EE2BoxTempMax (T_INT,C)</name>
+            <min>0</min>
+            <max>80</max>
+            
+        </limit>
+        <limit>
+            <name>EE2BoxTempRamp (T_INT,C)</name>
+            <min>0</min>
+            <max>80</max>
+            
+        </limit>
+        <limit>
+            <name>EE2BrkModulationIndex (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EE2DisableChargedError (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EE2EnableContOffsetCalib (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EE2FanOffTemp (T_INT,C)</name>
+            <min>0</min>
+            <max>100</max>
+            
+        </limit>
+        <limit>
+            <name>EE2FanOnTemp (T_INT,C)</name>
+            <min>0</min>
+            <max>100</max>
+            
+        </limit>
+        <limit>
+            <name>EE2HeatsinkTempFilterK1 (T_INT,C)</name>
+            <min>0</min>
+            <max>1.0</max>
+            
+        </limit>
+        <limit>
+            <name>EE2HertzFilterK1 (T_INT,C)</name>
+            <min>0</min>
+            <max>1.0</max>
+            
+        </limit>
+        <limit>
+            <name>EE2HertzOscFilterK1 (T_INT,C)</name>
+            <min>0</min>
+            <max>1.0</max>
+            
+        </limit>
+        <limit>
+            <name>EE2IRegSatEnable (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EE2IdL50 (T_INT,C)</name>
+            <min>0</min>
+            <max>400</max>
+            
+        </limit>
+        <limit>
+            <name>EE2IdMax (T_INT,C)</name>
+            <min>0</min>
+            <max>400</max>
+            
+        </limit>
+        <limit>
+            <name>EE2IqIdMaxRatio (T_INT,C)</name>
+            <min>0</min>
+            <max>31</max>
+            
+        </limit>
+        <limit>
+            <name>EE2IqMaxSlew (T_INT,C)</name>
+            <min>-100</min>
+            <max>1000</max>
+            
+        </limit>
+        <limit>
+            <name>EE2IsKi (T_INT,C)</name>
+            <min>0</min>
+            <max>0.3333</max>
+            
+        </limit>
+        <limit>
+            <name>EE2IsKp (T_INT,C)</name>
+            <min>0</min>
+            <max>20</max>
+            
+        </limit>
+        <limit>
+            <name>EE2IsMax (T_INT,C)</name>
+            <min>0</min>
+            <max>400</max>
+            
+        </limit>
+        <limit>
+            <name>EE2IsMaxTherm (T_INT,C)</name>
+            <min>-4</min>
+            <max>600</max>
+            
+        </limit>
+        <limit>
+            <name>EE2IsMaxThermSpeed (T_INT,C)</name>
+            <min>0</min>
+            <max>20000</max>
+            
+        </limit>
+        <limit>
+            <name>EE2IsMaxThermSpeedRamp (T_INT,C)</name>
+            <min>0</min>
+            <max>20000</max>
+            
+        </limit>
+        <limit>
+            <name>EE2IsQKi (T_INT,C)</name>
+            <min>0</min>
+            <max>0.3333</max>
+            
+        </limit>
+        <limit>
+            <name>EE2IsQKp (T_INT,C)</name>
+            <min>0</min>
+            <max>20</max>
+            
+        </limit>
+        <limit>
+            <name>EE2KVPsiMaxT (T_INT,C)</name>
+            <min>-32.0</min>
+            <max>31.0</max>
+            
+        </limit>
+        <limit>
+            <name>EE2LSigma (T_INT,C)</name>
+            <min>0</min>
+            <max>19</max>
+            
+        </limit>
+        <limit>
+            <name>EE2LSyncCap (T_INT,C)</name>
+            <min>0</min>
+            <max>19</max>
+            
+        </limit>
+        <limit>
+            <name>EE2LSyncMax (T_INT,C)</name>
+            <min>0</min>
+            <max>19</max>
+            
+        </limit>
+        <limit>
+            <name>EE2MaxCurrentAngleCos (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EE2MaxCurrentAngleSin (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EE2MinPowerLimitSpeed (T_INT,C)</name>
+            <min>0</min>
+            <max>12000</max>
+            
+        </limit>
+        <limit>
+            <name>EE2ModulationIndex (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EE2MotorPTCCold (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EE2MotorPTCHot (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EE2MotorPTCMin (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EE2MotorPTCisNTC (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EE2MotorTempFilterK1 (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EE2NegOverspeed (T_INT,C)</name>
+            <min>0</min>
+            <max>20000</max>
+            
+        </limit>
+        <limit>
+            <name>EE2NoAccelBat (T_INT,C)</name>
+            <min>0</min>
+            <max>400</max>
+            
+        </limit>
+        <limit>
+            <name>EE2NoRegenBat (T_INT,C)</name>
+            <min>0</min>
+            <max>400</max>
+            
+        </limit>
+        <limit>
+            <name>EE2OscDeltaHz (T_INT,C)</name>
+            <min>0</min>
+            <max>12000</max>
+            
+        </limit>
+        <limit>
+            <name>EE2OscDeltaT (T_INT,C)</name>
+            <min>0</min>
+            <max>32767.0</max>
+            
+        </limit>
+        <limit>
+            <name>EE2PosOverspeed (T_INT,C)</name>
+            <min>0</min>
+            <max>20000</max>
+            
+        </limit>
+        <limit>
+            <name>EE2PsOffBat (T_INT,C)</name>
+            <min>80</min>
+            <max>400</max>
+            
+        </limit>
+        <limit>
+            <name>EE2PsOnBat (T_INT,C)</name>
+            <min>100</min>
+            <max>400</max>
+            
+        </limit>
+        <limit>
+            <name>EE2PsiOptMax (T_INT,C)</name>
+            <min>0</min>
+            <max>7.8926</max>
+            
+        </limit>
+        <limit>
+            <name>EE2PsiRIm63 (T_INT,C)</name>
+            <min>0</min>
+            <max>400</max>
+            
+        </limit>
+        <limit>
+            <name>EE2PsiRIs63 (T_INT,C)</name>
+            <min>0</min>
+            <max>400</max>
+            
+        </limit>
+        <limit>
+            <name>EE2PsiRMax (T_INT,C)</name>
+            <min>0</min>
+            <max>7.8926</max>
+            
+        </limit>
+        <limit>
+            <name>EE2PsiRSat (T_INT,C)</name>
+            <min>0</min>
+            <max>7.8926</max>
+            
+        </limit>
+        <limit>
+            <name>EE2PsiRSlew (T_INT,C)</name>
+            <min>0</min>
+            <max>7.8926</max>
+            
+        </limit>
+        <limit>
+            <name>EE2RegenBatRamp (T_INT,C)</name>
+            <min>0</min>
+            <max>400</max>
+            
+        </limit>
+        <limit>
+            <name>EE2RotorResistance (T_INT,C)</name>
+            <min>0</min>
+            <max>10</max>
+            
+        </limit>
+        <limit>
+            <name>EE2ShaftDirection (T_INT,C)</name>
+            <min>-1</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EE2SlipConstant (T_INT,C)</name>
+            <min>0</min>
+            <max>10</max>
+            
+        </limit>
+        <limit>
+            <name>EE2SpeedDeltaFaultThr (T_INT,C)</name>
+            <min>0</min>
+            <max>20000</max>
+            
+        </limit>
+        <limit>
+            <name>EE2StallDutyFactor (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EE2StatorResistance (T_INT,C)</name>
+            <min>0</min>
+            <max>10</max>
+            
+        </limit>
+        <limit>
+            <name>EE2TPerPsi (T_INT,C)</name>
+            <min>0</min>
+            <max>400</max>
+            
+        </limit>
+        <limit>
+            <name>EE2TorqueEstEnableVoltage (T_INT,C)</name>
+            <min>0</min>
+            <max>200</max>
+            
+        </limit>
+        <limit>
+            <name>EE2TorqueEstRampVoltage (T_INT,C)</name>
+            <min>0</min>
+            <max>200</max>
+            
+        </limit>
+        <limit>
+            <name>EE2TorqueInductance (T_INT,C)</name>
+            <min>0</min>
+            <max>19</max>
+            
+        </limit>
+        <limit>
+            <name>EEXAccelMaxTorque (T_INT,C)</name>
+            <min>0</min>
+            <max>1000</max>
+            
+        </limit>
+        <limit>
+            <name>EEXBrakeLightOffTorque (T_INT,C)</name>
+            <min>0</min>
+            <max>1000</max>
+            
+        </limit>
+        <limit>
+            <name>EEXBrakeLightOnTorque (T_INT,C)</name>
+            <min>0</min>
+            <max>1000</max>
+            
+        </limit>
+        <limit>
+            <name>EEXBrakeMaxTorque (T_INT,C)</name>
+            <min>0</min>
+            <max>1000</max>
+            
+        </limit>
+        <limit>
+            <name>EEXBrakeTorqueSlew (T_INT,C)</name>
+            <min>0</min>
+            <max>10000</max>
+            
+        </limit>
+        <limit>
+            <name>EEXCANDMOCDiagReqtID (T_INT,C)</name>
+            <min>0</min>
+            <max>2047</max>
+            
+        </limit>
+        <limit>
+            <name>EEXCANDMOCDiagRespCycleSec (T_INT,C)</name>
+            <min>-1</min>
+            <max>100</max>
+            
+        </limit>
+        <limit>
+            <name>EEXCANDMOCDiagRespID (T_INT,C)</name>
+            <min>0</min>
+            <max>2047</max>
+            
+        </limit>
+        <limit>
+            <name>EEXCANElecStatus1CycleSec (T_INT,C)</name>
+            <min>-1</min>
+            <max>100</max>
+            
+        </limit>
+        <limit>
+            <name>EEXCANElecStatus1ID (T_INT,C)</name>
+            <min>0</min>
+            <max>2047</max>
+            
+        </limit>
+        <limit>
+            <name>EEXCANKBitS (T_INT,C)</name>
+            <min>0</min>
+            <max>1000</max>
+            
+        </limit>
+        <limit>
+            <name>EEXCANMechStatus1CycleSec (T_INT,C)</name>
+            <min>-1</min>
+            <max>100</max>
+            
+        </limit>
+        <limit>
+            <name>EEXCANMechStatus1ID (T_INT,C)</name>
+            <min>0</min>
+            <max>2047</max>
+            
+        </limit>
+        <limit>
+            <name>EEXCANTSeg1 (T_INT,C)</name>
+            <min>0</min>
+            <max>50</max>
+            
+        </limit>
+        <limit>
+            <name>EEXCANTSeg2 (T_INT,C)</name>
+            <min>0</min>
+            <max>50</max>
+            
+        </limit>
+        <limit>
+            <name>EEXCANTempStatusCycleSec (T_INT,C)</name>
+            <min>-1</min>
+            <max>100</max>
+            
+        </limit>
+        <limit>
+            <name>EEXCANTempStatusID (T_INT,C)</name>
+            <min>0</min>
+            <max>2047</max>
+            
+        </limit>
+        <limit>
+            <name>EEXCANTxEnabled (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EEXFullAccelNegSpeed (T_INT,C)</name>
+            <min>0</min>
+            <max>12000</max>
+            
+        </limit>
+        <limit>
+            <name>EEXFullAccelPosSpeed (T_INT,C)</name>
+            <min>0</min>
+            <max>12000</max>
+            
+        </limit>
+        <limit>
+            <name>EEXFullBrakeSpeed (T_INT,C)</name>
+            <min>0</min>
+            <max>12000</max>
+            
+        </limit>
+        <limit>
+            <name>EEXInterlockSpeedHigh (T_INT,C)</name>
+            <min>0</min>
+            <max>12000</max>
+            
+        </limit>
+        <limit>
+            <name>EEXInterlockSpeedLow (T_INT,C)</name>
+            <min>0</min>
+            <max>12000</max>
+            
+        </limit>
+        <limit>
+            <name>EEXMaxAccelPower (T_INT,C)</name>
+            <min>0</min>
+            <max>100000</max>
+            
+        </limit>
+        <limit>
+            <name>EEXMaxRegenPower (T_INT,C)</name>
+            <min>0</min>
+            <max>100000</max>
+            
+        </limit>
+        <limit>
+            <name>EEXMinAccelPower (T_INT,C)</name>
+            <min>0</min>
+            <max>100000</max>
+            
+        </limit>
+        <limit>
+            <name>EEXNoAccelNegSpeed (T_INT,C)</name>
+            <min>0</min>
+            <max>20000</max>
+            
+        </limit>
+        <limit>
+            <name>EEXNoAccelPosSpeed (T_INT,C)</name>
+            <min>0</min>
+            <max>20000</max>
+            
+        </limit>
+        <limit>
+            <name>EEXNoBrakeSpeed (T_INT,C)</name>
+            <min>0</min>
+            <max>12000</max>
+            
+        </limit>
+        <limit>
+            <name>EEXNoIgnSwitch (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EEXNormAccelPower (T_INT,C)</name>
+            <min>0</min>
+            <max>100000</max>
+            
+        </limit>
+        <limit>
+            <name>EEXPedAccel (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EEXPedBrake (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EEXPedHyst (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EEXPedMax (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EEXPedZero (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EEXPowerSaverPos1 (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EEXPowerSaverPos2 (T_INT,C)</name>
+            <min>0</min>
+            <max>1</max>
+            
+        </limit>
+        <limit>
+            <name>EEXPreloadTorque (T_INT,C)</name>
+            <min>0</min>
+            <max>1000</max>
+            
+        </limit>
+        <limit>
+            <name>EEXRegenOnSpeed (T_INT,C)</name>
+            <min>0</min>
+            <max>12000</max>
+            
+        </limit>
+        <limit>
+            <name>EEXTorqueSlew (T_INT,C)</name>
+            <min>0</min>
+            <max>100000</max>
+            
+        </limit>
+        <limit>
+            <name>EEXUnloadTorqueSlew (T_INT,C)</name>
+            <min>0</min>
+            <max>100000</max>
+            
+        </limit>
+        
+    </limits>
+    
+</ccs>
+
