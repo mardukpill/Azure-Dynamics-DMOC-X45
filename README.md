@@ -1,6 +1,6 @@
 # Azure-Dynamics-DMOC-X45
 
-a repository information regarding Azure Dynamic's DMOC 445 and 645 motor
+a repository containing information regarding Azure Dynamic's DMOC 445 and 645 motor
 controllers.
 
 ## ccShell
